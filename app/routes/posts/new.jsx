@@ -1,5 +1,5 @@
 import {Link} from "@remix-run/react";
-import { redirect } from "@remix-run/node";
+import { redirect } from "@remix-run/cloudflare";
 
 export const action = async({request}) => {
 const form = await request.formData()
